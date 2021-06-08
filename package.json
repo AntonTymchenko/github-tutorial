@@ -1,19 +1,19 @@
 {
-  "name": "parcel-project-template",
+  "name": "github-tutorial",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://antontymchenko.github.io/github-tutorial/",
+  "homepage": "https://antontymchenko.github.io/github-tutorial",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /github-tutorial/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AntonTymchenko/github-tutorial.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "Anton Tymchenko <timchenkov_@ukr.net>",
+  "author": "Anton Tymchenko <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
@@ -24,8 +24,5 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
-  },
-  "dependencies": {
-    "handlebars": "^4.7.7"
   }
 }
